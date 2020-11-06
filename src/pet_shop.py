@@ -20,4 +20,8 @@ def add_or_remove_cash(input_dict, amount_to_remove):
 
 def get_pets_sold(input_dict):
     return input_dict["admin"]["pets_sold"]
-    
+
+def increase_pets_sold(input_dict, num_pets_sold):
+    final_amount_pets = input_dict["admin"]["pets_sold"] + num_pets_sold
+    add_final_amount_to_dict = input_dict["admin"]["pets_sold"] = final_amount_pets
+    return add_final_amount_to_dict
