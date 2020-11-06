@@ -17,3 +17,7 @@ def add_or_remove_cash(input_dict, amount_to_remove):
     final_amount_sub = input_dict["admin"]["total_cash"] + amount_to_remove
     remove_final_amount_from_dict = input_dict["admin"]["total_cash"] = final_amount_sub
     return remove_final_amount_from_dict
+
+def get_pets_sold(input_dict):
+    return input_dict["admin"]["pets_sold"]
+    
