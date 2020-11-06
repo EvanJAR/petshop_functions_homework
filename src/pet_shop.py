@@ -25,3 +25,6 @@ def increase_pets_sold(input_dict, num_pets_sold):
     final_amount_pets = input_dict["admin"]["pets_sold"] + num_pets_sold
     add_final_amount_to_dict = input_dict["admin"]["pets_sold"] = final_amount_pets
     return add_final_amount_to_dict
+
+def get_stock_count(input_dict):
+    return len(input_dict["pets"])
