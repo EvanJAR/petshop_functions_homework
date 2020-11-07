@@ -50,6 +50,15 @@ def find_pet_by_name(input_dict, name):
             found_pet_by_name = pet
     return found_pet_by_name
 
+def find_pet_by_name(input_dict, name):
+    not_found_pet_by_name = None
+    for pet in input_dict["pets"]:
+        if pet["name"] == name:
+            not_found_pet_by_name = pet
+    return not_found_pet_by_name
+
+
+
 
 
 
