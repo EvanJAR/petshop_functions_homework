@@ -43,6 +43,14 @@ def get_pets_by_breed(input_dict, breed):
             not_found_pet_by_breed.append(pet)
     return not_found_pet_by_breed
 
+def find_pet_by_name(input_dict, name):
+    found_pet_by_name = None
+    for pet in input_dict["pets"]:
+        if pet["name"] == name:
+            found_pet_by_name = pet
+    return found_pet_by_name
+
+
 
 
 
