@@ -79,7 +79,17 @@ def get_customer_pet_count(input_dict):
 def add_pet_to_customer(input_dict, pet_to_add):
     return input_dict["pets"].append(pet_to_add)
 
+def customer_can_afford_pet(customer, pet):
+    can_afford = None
+    for potential_customer in customer:
+        if customer["cash"] >= pet["price"]:
+            can_afford = True
+    return can_afford
+            
     
+
+
+
     
 
 
