@@ -88,6 +88,7 @@ def customer_can_afford_pet(customer, pet):
             can_afford = False
     return can_afford
             
+            
     
 
 
