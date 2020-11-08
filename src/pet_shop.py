@@ -73,7 +73,12 @@ def remove_customer_cash(input_dict, remove_cash):
     remove_final_amount_from_dict = input_dict["cash"] = final_amount
     return remove_final_amount_from_dict
 
-    
+def get_customer_pet_count(input_dict):
+    return len(input_dict["pets"])
+
+
+
+
     
     
 
