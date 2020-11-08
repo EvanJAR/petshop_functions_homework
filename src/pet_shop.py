@@ -84,6 +84,8 @@ def customer_can_afford_pet(customer, pet):
     for potential_customer in customer:
         if customer["cash"] >= pet["price"]:
             can_afford = True
+        else:
+            can_afford = False
     return can_afford
             
     
