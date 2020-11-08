@@ -1,8 +1,8 @@
 # WRITE YOUR FUNCTIONS HERE
 
 def get_pet_shop_name(input_dictionary):
-    result = input_dictionary["name"]
-    return result
+    return = input_dictionary["name"]
+    
 
 def get_total_cash(input_dictionary):
     return input_dictionary["admin"]["total_cash"]
@@ -88,7 +88,7 @@ def customer_can_afford_pet(customer, pet):
             can_afford = False
     return can_afford
             
-            
+
     
 
 
