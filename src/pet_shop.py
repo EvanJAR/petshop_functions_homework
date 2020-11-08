@@ -1,7 +1,7 @@
 # WRITE YOUR FUNCTIONS HERE
 
 def get_pet_shop_name(input_dictionary):
-    return = input_dictionary["name"]
+    return input_dictionary["name"]
     
 
 def get_total_cash(input_dictionary):
