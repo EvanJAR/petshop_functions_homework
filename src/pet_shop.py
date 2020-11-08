@@ -62,8 +62,13 @@ def remove_pet_by_name(input_dict, name_to_remove):
         if pet["name"] == name_to_remove:
             input_dict["pets"].remove(pet)
 
-
+def add_pet_to_stock(input_dict, pet_to_add):
+    input_dict["pets"].append(pet_to_add)
     
+def get_customer_cash(input_dict):
+    return input_dict["cash"]
+
+
     
          
     
