@@ -57,7 +57,14 @@ def find_pet_by_name(input_dict, name):
             not_found_pet_by_name = pet
     return not_found_pet_by_name
 
+def remove_pet_by_name(input_dict, name_to_remove):
+    for pet in input_dict["pets"]:
+        if pet["name"] == name_to_remove:
+            input_dict["pets"].remove(pet)
 
+
+    
+    
          
     
     
