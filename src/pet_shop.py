@@ -68,9 +68,12 @@ def add_pet_to_stock(input_dict, pet_to_add):
 def get_customer_cash(input_dict):
     return input_dict["cash"]
 
+def remove_customer_cash(input_dict, remove_cash): 
+    final_amount = input_dict["cash"] - remove_cash 
+    remove_final_amount_from_dict = input_dict["cash"] = final_amount
+    return remove_final_amount_from_dict
 
     
-         
     
     
 
